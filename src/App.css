@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -24,6 +24,26 @@
 
 .App-link {
   color: rgb(112, 76, 182);
+}
+
+.side-bar {
+  border-right: 1px solid lightgray;
+  padding: 16px
+}
+
+.side-bar-item {
+  padding: 8px;
+  margin: 16px 4px;
+  color: white;
+  background-color: rgb(112, 76, 182);
+  border-radius: 4px;
+  display: flex;
+}
+
+
+.container {
+  flex: 0.85;
+  padding: 16px
 }
 
 @keyframes App-logo-float {
